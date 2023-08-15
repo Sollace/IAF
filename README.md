@@ -21,7 +21,7 @@ they will eventually run into issues that will cause the game to crash with a st
 
 The fix is pretty obvious (if you're me): Don't use recursion.
 
-So that's what I did.
+So that's what I did. (and that's what Mojang did in 1.20 :P)
 
 I've replaced the original recursive method calls with an iterative loop and a stack, and done it carefully to preserve the old behaviour
 and (hopefully) retain compatibility with Architectury and Create (both of which have injection points into the start of this method).
