@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "minVersion": "0.7",
+  "package": "com.sollace.iaf.mixin",
+  "refmap": "iaf.mixin.refmap.json",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "MixinPlayerAdvancementTracker"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

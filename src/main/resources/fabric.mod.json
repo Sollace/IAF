@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "infinite_advancements_fix",
+  "version": "${version}",
+  "name": "Infinite Advancements Fix",
+  "description": "Fixes a recursion issue in vanilla 1.19.2 that would prevent the game from handling extremely large advancement trees",
+  "authors": [ "Sollace" ],
+  "contact": {
+    "sources": "https://github.com/Sollace/InfiniteAdvancementsFix",
+    "issues": "https://github.com/Sollace/InfiniteAdvancementsFix/issues"
+  },
+  "mixins": [
+    "iaf.mixin.json"
+  ],
+  "license": "MIT",
+  "icon": "icon.png",
+  "accessWidener": "iaf.aw",
+  "environment": "*",
+  "depends": {
+    "fabricloader": ">=0.12.0",
+    "java": ">=17",
+    "fabric-api-base": ">=0.1.0"
+  }
+}
